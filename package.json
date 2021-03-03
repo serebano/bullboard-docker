@@ -1,0 +1,13 @@
+{
+  "name": "bullboard-docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:serebano/bullboard-docker.git",
+  "author": "Sergiu Todersacu <sergiu.toderascu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bull": "^3.20.1",
+    "bull-board": "^1.4.1",
+    "express": "^4.17.1"
+  }
+}
