@@ -3,7 +3,7 @@
 ## build docker image
 `docker build -t serebano/bullboard .`
 
-## env
+## .env
 ```
 REDIS_HOST=127.0.0.1
 REDIS_PORT=6379
@@ -12,6 +12,11 @@ REDIS_TLS=false
 
 QUEUES=myqueue1,myqueue2
 PORT=7010
+```
+
+## run
+```
+docker-compose up
 ```
 
 ## dashboard
